@@ -5,7 +5,7 @@ import useFirebase from "../../hooks/useFirebase";
 import "./Login.css";
 
 const Login = () => {
-    const {signInWithGoogle,error} = useFirebase();
+    const {signInWithGoogle, error} = useFirebase();
   return (
     <div>
       <h1 className="fw-bold mb-5 mt-5 text-center">Log in</h1>
