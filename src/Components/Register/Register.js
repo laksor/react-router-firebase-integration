@@ -3,10 +3,12 @@ import { Button, Form } from "react-bootstrap";
 import "./Register.css";
 
 const Register = () => {
+    
+
   return (
     <div>
-      <h1 className="text-center fw-bold mb-5">Register</h1>
-      <Form className="mx-auto w-50">
+      <h1 className="text-center fw-bold mt-5 mb-5">Register</h1>
+      <Form  className="mx-auto w-50">
         <Form.Group className="mb-3">
           <Form.Label>Name</Form.Label>
           <Form.Control type="text" placeholder="Enter name" />
@@ -25,7 +27,7 @@ const Register = () => {
           <Form.Control type="password" placeholder="Password" />
         </Form.Group>
 
-        <Button variant="primary" className="rounded-pill" type="submit">
+        <Button variant="danger" className="rounded-pill" type="submit">
           Register
         </Button>
       </Form>

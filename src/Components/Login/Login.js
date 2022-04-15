@@ -5,7 +5,7 @@ import "./Login.css";
 const Login = () => {
   return (
     <div>
-      <h1 className="fw-bold mb-5 text-center">log in</h1>
+      <h1 className="fw-bold mb-5 mt-5 text-center">Log in</h1>
       <Form className="w-50 mx-auto">
         <Form.Group className="mb-3" controlId="formBasicEmail">
           <Form.Label>Email address</Form.Label>
