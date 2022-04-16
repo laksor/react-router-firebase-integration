@@ -1,11 +1,14 @@
+import { getAuth } from "firebase/auth";
 import React from "react";
 import { Button, Form } from "react-bootstrap";
-import useFirebase from "../../hooks/useFirebase";
-
+import { useSignInWithGoogle} from 'react-firebase-hooks/auth';
+import app from "../../firebase.init";
 import "./Login.css";
 
+const auth = getAuth(app);
+
 const Login = () => {
-    const {signInWithGoogle, error} = useFirebase();
+  const [signInWithGoogle] = useSignInWithGoogle(auth);
   return (
     <div>
       <h1 className="fw-bold mb-5 mt-5 text-center">Log in</h1>
@@ -29,14 +32,14 @@ const Login = () => {
           Login
         </Button>
       </Form>
-      <p className="mt-2 mb-2 text-danger">{error}</p>
+      
       <h3 className="text-center">-------- Or -------</h3>
       <div className="d-flex justify-content-center">
         <Button
           size="lg"
           className="btn btn-danger rounded-pill w-50 mt-3"
           type="submit"
-          onClick={signInWithGoogle}
+          onClick={ () => signInWithGoogle()}
         >
           Continue with Google
         </Button>
