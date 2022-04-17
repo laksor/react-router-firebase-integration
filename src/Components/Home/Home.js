@@ -1,12 +1,13 @@
-import React from 'react';
-import './Home.css';
+import React from "react";
+import Banner from "../Banner/Banner";
+import "./Home.css";
 
 const Home = () => {
-    return (
-        <div className='text-center mt-5'>
-            <h1>Home</h1>
-        </div>
-    );
+  return (
+    <div>
+      <Banner></Banner>
+    </div>
+  );
 };
 
 export default Home;

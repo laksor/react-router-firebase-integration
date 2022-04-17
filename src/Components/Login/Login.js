@@ -1,6 +1,6 @@
 import { getAuth } from "firebase/auth";
-import React from "react";
-import { Button, Form } from "react-bootstrap";
+
+import { Button, Form} from "react-bootstrap";
 import { useSignInWithGoogle} from 'react-firebase-hooks/auth';
 import { useLocation, useNavigate } from "react-router-dom";
 import app from "../../firebase.init";
@@ -23,7 +23,7 @@ const Login = () => {
     })
   }
   return (
-    <div>
+      <div>
       <h1 className="fw-bold mb-5 mt-5 text-center">Log in</h1>
       <Form className="w-50 mx-auto">
         <Form.Group className="mb-3" controlId="formBasicEmail">
@@ -41,7 +41,7 @@ const Login = () => {
         <Form.Group className="mb-3" controlId="formBasicCheckbox">
           <Form.Check type="checkbox" label="Check me out" />
         </Form.Group>
-        <Button variant="primary" className="rounded-pill" type="submit">
+        <Button  variant="primary" className="rounded-pill" type="submit">
           Login
         </Button>
       </Form>
