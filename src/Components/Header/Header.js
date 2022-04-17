@@ -6,17 +6,20 @@ import { useAuthState } from "react-firebase-hooks/auth";
 import { getAuth, signOut } from "firebase/auth";
 import app from "../../firebase.init";
 
+
 const auth = getAuth(app);
 
 const Header = () => {
   const [user] = useAuthState(auth);
   return (
-    <div className="shadow">
-      <Navbar bg="dark" variant="dark">
+    <div>
+      <Navbar bg="dark" variant="dark" sticky="top" expand="md" collapseOnSelect>
         <Container>
           <Navbar.Brand href="/">JWL Accounting</Navbar.Brand>
+
+          <Navbar.Collapse>
+          <Nav className="mx-end">
           
-          <Nav className="mx-auto">
           {<Nav.Link  className="header">
           <Link to="/">Home</Link>
           <Link  to="/products">Products</Link>
@@ -37,6 +40,12 @@ const Header = () => {
               {user?.displayName && user.displayName}
             </span>
           </Nav>
+          
+          
+          
+          </Navbar.Collapse>
+          
+          
          
          
         </Container>

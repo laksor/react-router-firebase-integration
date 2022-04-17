@@ -7,18 +7,18 @@ const Banner = () => {
       <Carousel>
         <Carousel.Item interval={3500}>
           <img
-            className="d-block w-100"
+            className=" w-100"
             src="https://charlesaris.com/wp-content/uploads/2021/06/FA-offer-report-carousel-banner-2.png"
             alt="First slide"
           />
           <Carousel.Caption>
             <h3>SMALL BUSINESSES</h3>
-            <p>Whether you need assistance with your regular bookkeeping, are required to prepare a Notice to Reader for your creditors or would like some general advice on your operation’s internal controls, contact me today with your small business needs.</p>
+            <p>required to prepare a Notice to Reader for your creditors or would like some general advice on your operation’s internal controls</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item interval={3500}>
           <img
-            className="d-block w-100"
+            className="w-100"
             src="https://charlesaris.com/wp-content/uploads/2021/04/Former-Consult-Study-Website-Carousel.png"
             alt="Second slide"
           />
@@ -29,7 +29,7 @@ const Banner = () => {
         </Carousel.Item>
         <Carousel.Item interval={3500}>
           <img
-            className="d-block w-100"
+            className=" w-100"
             src="https://charlesaris.com/wp-content/uploads/2021/06/FA-offer-report-carousel-banner-1.png"
             alt="Third slide"
           />

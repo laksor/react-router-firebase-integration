@@ -5,7 +5,7 @@ import { Card, CardGroup, Container } from "react-bootstrap";
 const Service = () => {
   return (
     <div className="mt-5">
-      <h1 className="text-center mb-5 fw-bold">My Services</h1>
+      <h1 className="text-center mb-5 fw-bold">Our Services</h1>
       <Container>
         <CardGroup className="mb-5">
           <Card>
@@ -14,7 +14,7 @@ const Service = () => {
               height={250}
               src="http://www.eparent.com/wp-content/uploads/2019/06/8-Simple-Ways-to-Market-Your-Small-Business-Online.jpg"
             />
-            <Card.Body>
+            <Card.Body >
               <Card.Title>SMALL BUSINESSES</Card.Title>
               <Card.Text>
                 Whether you need assistance with your regular bookkeeping, are
