@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className="bg-dark text-white p-5 mt-5">
       <Container>
-        <h1 className="text-center">All right reserved buy JWl-2022</h1>
+        <p className="text-center text-muted">All right reserved by JWL-2022</p>
       </Container>
     </div>
   );
