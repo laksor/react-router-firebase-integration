@@ -12,8 +12,8 @@ const Banner = () => {
             alt="First slide"
           />
           <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <h3>SMALL BUSINESSES</h3>
+            <p>Whether you need assistance with your regular bookkeeping, are required to prepare a Notice to Reader for your creditors or would like some general advice on your operation’s internal controls, contact me today with your small business needs.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item interval={3500}>
@@ -23,8 +23,8 @@ const Banner = () => {
             alt="Second slide"
           />
           <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h3>CORPORATE TAXES</h3>
+            <p>If you are a registered Corporation resident in Canada, whether inactive or tax-exempt, it is an annual requirement to file a T2 corporation income tax return. Let me help you find the answers</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item interval={3500}>
@@ -34,9 +34,9 @@ const Banner = () => {
             alt="Third slide"
           />
           <Carousel.Caption>
-            <h3>Third slide label</h3>
+            <h3>MEDIA AND ENTERTAINMENT</h3>
             <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            If you are primarily in the business of film production you may be eligible for Federal and Provincial film production tax credits!
             </p>
           </Carousel.Caption>
         </Carousel.Item>
