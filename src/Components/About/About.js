@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Container, Figure,  Row } from "react-bootstrap";
+import { Col, Container, Figure, Row } from "react-bootstrap";
 
 const About = () => {
   return (
@@ -10,41 +10,25 @@ const About = () => {
           <Col sm={6}>
             <Figure>
               <Figure.Image
-              className="img-fluid w-75 rounded"
-              
+                className="w-100 rounded"
                 alt="pro"
-                src="https://images.squarespace-cdn.com/content/v1/5a0f8584b7411c53d87b4eda/1643155269673-GED4VSN0N79Q2DY646E6/Tim.jpg?format=750w"
+                src="https://mms.businesswire.com/media/20220222005335/en/1366158/4/Marcelo.jpg"
               />
             </Figure>
           </Col>
 
           <Col sm={6}>
             <p>
-              Jessica Louie is a passionate learner and educator who thrives in
-              helping individuals uncover their business potential and encourage
-              their professional growth. 
+              My name is Ahmed. A reflection on my goals allows me to give a deeper insight into
+              how this front end development fits in with my long-term career
+              goals.
               <br />
               <br />
-
-              Jessica is an entrepreneur at heart.
-              After graduating from the Sauder School of Business in Finance she
-              completed her Diploma in Accounting Program in 2010. In 2014, she
-              achieved her Chartered Professional Accountant designation with
-              one of the top four accounting firms in Canada, Ernst & Young LLP.
-              After three years at Ernst & Young, Jessica followed her calling
-              to give back to small businesses and fellow entrepreneurs and
-              founded her own practice in 2014, JWL Accounting & Business
-              Services. Through her practice she focuses on the Film &
-              Entertainment Industry, Non-Profit Organizations and Small
-              Businesses.
-              <br />
-              <br />
-              
-              Forever the creative spirit, Jessica concurrently
-              pursued a career in hair styling at John Casablanca Institute in
-              2014. During her tenure, she was awarded Top Student and
-              successfully ran a mobile hair styling business for three years.
-              
+              The opportunity to participate in programming hero is been
+              organized by the Team which has been immensely successful in
+              creating a global network of a highly adept intelligent workforce
+              that help companies achieve their mission-critical projects and
+              goals.
             </p>
           </Col>
         </Row>

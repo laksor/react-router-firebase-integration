@@ -14,25 +14,20 @@ const Header = () => {
     <div>
       <Navbar bg="dark" variant="dark" sticky="top">
         <Container>
-          <Navbar.Brand href="/">JWL Accounting</Navbar.Brand>
+          <Navbar.Brand href="/">Ahmed Accounting</Navbar.Brand>
           <Nav className="mx-end">
             {
               <Nav.Link className="header">
                 <Link to="/">Home</Link>
-                <Link to="/products">Products</Link>
-                <Link to="/orders">Orders</Link>
+                <Link to="/orders">CheckOut</Link>
                 <Link to="/blog">Blog</Link>
                 <Link to="/about">About</Link>
-                
 
-                {
-                  user?.uid 
-                  
-                  ?
+                {user?.uid ? (
                   <Button onClick={() => signOut(auth)}>Sign out</Button>
-                 : 
+                ) : (
                   <Link to="/login">Login</Link>
-              }
+                )}
               </Nav.Link>
             }
 

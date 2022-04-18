@@ -5,7 +5,7 @@ import { Card, CardGroup, Container } from "react-bootstrap";
 const Service = () => {
   return (
     <div className="mt-5">
-      <h1 className="text-center mb-5 fw-bold">Our Services</h1>
+      <h1 className="text-center mb-5 fw-bold"> Services</h1>
       <Container>
         <CardGroup className="mb-5">
           <Card>
@@ -22,6 +22,7 @@ const Service = () => {
                 would like some general advice on your operation’s internal
                 controls, contact me today with your small business needs.
               </Card.Text>
+              <p className="fw-bold">Price : $500</p>
             </Card.Body>
             <Card.Footer className="d-grid">
               <Button className="px-5" size="lg">
@@ -45,6 +46,7 @@ const Service = () => {
                 assistance is needed in preparing and electronically filing your
                 Corporation’s T2.
               </Card.Text>
+              <p className="fw-bold">Price : $700</p>
             </Card.Body>
             <Card.Footer className="d-grid">
               <Button className="px-5" size="lg">
@@ -67,6 +69,7 @@ const Service = () => {
                 company’s eligibility for these tax credits and get started on
                 your claim today.
               </Card.Text>
+              <p className="fw-bold">Price : $900</p>
             </Card.Body>
             <Card.Footer className="d-grid">
               <Button className="px-5" size="lg">
