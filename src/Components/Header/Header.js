@@ -23,13 +23,16 @@ const Header = () => {
                 <Link to="/orders">Orders</Link>
                 <Link to="/blog">Blog</Link>
                 <Link to="/about">About</Link>
-                <Link to="/register">Register</Link>
+                
 
-                {user?.uid ? (
+                {
+                  user?.uid 
+                  
+                  ?
                   <Button onClick={() => signOut(auth)}>Sign out</Button>
-                ) : (
+                 : 
                   <Link to="/login">Login</Link>
-                )}
+              }
               </Nav.Link>
             }
 
