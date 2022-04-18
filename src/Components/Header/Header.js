@@ -12,7 +12,7 @@ const Header = () => {
   const [user] = useAuthState(auth);
   return (
     <div>
-      <Navbar bg="dark" variant="dark" sticky="top">
+      <Navbar bg="dark" variant="dark" sticky="top" expand="sm">
         <Container>
           <Navbar.Brand href="/">Ahmed Accounting</Navbar.Brand>
           <Nav className="mx-end">
